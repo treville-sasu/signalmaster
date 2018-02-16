@@ -10,7 +10,7 @@
   },
   "rooms": {
     "/* maxClients */": "/* maximum number of clients per room. 0 = no limit */",
-    "maxClients": 0
+    "maxClients": 10
   },
   "stunservers": [
     {
@@ -19,8 +19,8 @@
   ],
   "turnservers": [
     {
-      "urls": ["turn:your.turn.servers.here"],
-      "secret": "turnserversharedsecret",
+      "urls": ['turn:numb.viagenie.ca'],
+      "secret": 'webrtc@live.com:muazkh',
       "expiry": 86400
     }
   ]
